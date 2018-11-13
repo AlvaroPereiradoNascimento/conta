@@ -1,0 +1,18 @@
+/*função:Receba os valores de 2 catetos de um triângulo retângulo. Calcule e mostre a hipotenusa.
+  Progrmador :Alvaro Pereira do Nascimento 
+  data:26/02/2018
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+   	unsigned int x,y, m;
+	scanf("%i", & x);
+	scanf("%i", & y);
+	x=pow(x,2);
+	y=pow (y,2);
+	m=sqrt((x+y));
+	printf (" A hipotenusa e: %d \n\n", m);
+}

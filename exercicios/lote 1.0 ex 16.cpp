@@ -1,0 +1,25 @@
+/*função:Receba a quantidade de horas trabalhadas, o valor por hora, o percentual de desconto e o número de descendentes. Calcule o salário que serão as horas trabalhadas x o valor por hora. Calcule o salário líquido (= Salário Bruto – desconto). A cada dependente será acrescido R$ 100 no Salário Líquido. Exiba o salário a receber.
+  Progrmador :Alvaro Pereira do Nascimento 
+  data:26/02/2018
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+   	float x,y, m, n, sb, sl, desc;
+	printf (" horas trabalhadas: ");
+	scanf("%f", & x);
+	printf("\n valor da hora:");
+	scanf("%f", & y);
+	printf("\npercentual de desconto em porcentagem: ");
+	scanf("%f", &m);
+	printf("\nNumero de dependentes: ");
+	scanf("%f",&n);
+	sb=x*y;
+	m/=100;
+	desc = sb*m;
+	sl= (sb-desc)+(n*100);
+	printf (" O salario a receber e: %.2f \n\n", sl);
+}

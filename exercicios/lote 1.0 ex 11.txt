@@ -1,0 +1,28 @@
+/*função:Receba o raio de uma circunferência. Calcule e mostre o comprimento da circunferência.
+  Progrmador :Alvaro Pereira do Nascimento 
+  
+  data:26/02/2018
+
+*/
+
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <math.h>
+
+
+
+int main (){
+
+	
+
+	float x;
+
+	scanf("%f", &x);
+
+	printf (" o valor da circunferencia e: %0.2i\n\n", (2*3,14*x));
+
+
+}

@@ -1,0 +1,16 @@
+/*função:Receba a base e a altura de um triângulo. Calcule e mostre a sua área.
+  Progrmador :Alvaro Pereira do Nascimento 
+  data:26/02/2018
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+	int l,i;
+	scanf("%i", &l);
+	scanf("%i", &i);
+	printf (" o valor é: %i", (l*i)/2);
+
+}

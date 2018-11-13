@@ -1,0 +1,36 @@
+/*função:Receba o ano de nascimento e o ano atual. Calcule e mostre a sua idade equantos anos terá daqui a 17 anos.
+  Progrmador :Alvaro Pereira do Nascimento 
+  
+  data:26/02/2018
+
+*/
+
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <math.h>
+
+
+
+int main (){
+
+
+	
+
+float x;
+
+
+
+	scanf("%f", & x);
+
+	x /= 0.05;
+
+	printf (" Consumo ao dia e: %d \n\n", x);
+
+
+
+
+
+}

@@ -1,0 +1,20 @@
+/*função:Receba os coeficientes A, B e C de uma equação do 2º grau(AX²+BX+C=0). Calcule e mostre as raízes   reais (considerar que a equação possue2 raízes).
+  Progrmador :Alvaro Pereira do Nascimento 
+  data:26/02/2018
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+
+	int A, B, C , del;
+	scanf("%i", &A);
+	scanf("%i", &B);
+	scanf("%i", &C);
+	del = (b*b)-4*A*C;
+	printf (" o valor da primeira raiz é: %i\n\n", (-b + sqrt(del))/2*A );
+	printf (" o valor da segunda raiz é: %i\n\n", (-b - sqrt(del))/2*A );
+
+}

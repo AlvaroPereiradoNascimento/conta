@@ -1,0 +1,15 @@
+/*função:Receba 2 números reais. Calcule e mostre a diferença desses valores.
+  Progrmador :Alvaro Pereira do Nascimento 
+  data:26/02/2018
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+	float x,y ;
+	scanf("%f", &x);
+	scanf("%f", &y);
+	printf (" o valor da diferença e: %0.2f\n\n", (x-y));
+}
